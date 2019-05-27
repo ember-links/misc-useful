@@ -17,7 +17,7 @@
 
 > If you rely on the ds-pushpayload-return feature flag, you can use the following pattern to manually serialize the API response and push the record into the store.
 
-**utils/pushpayload.js**
+**utils/push-payload.js**
 ```js
 export function pushPayload(store, modelName, rawPayload) {
    let ModelClass = store.modelFor(modelName);
